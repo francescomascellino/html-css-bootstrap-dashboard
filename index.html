@@ -24,7 +24,7 @@
 
             <nav class="navbar navbar-expand bg-body-tertiary">
 
-                <div class="container-fluid">
+                <div class="container-fluid bg-white">
 
                     <a class="navbar-brand d-lg-none" href="#"><img
                             class="bd_mobile_logo"
@@ -33,13 +33,22 @@
                     <a class="navbar-brand d-none d-lg-inline-block" href="#"><img
                             src=".//assets/img/logo.svg" alt="logo"></a>
 
+                    <div class="d-flex flex-grow-1 input-group">
+                        <span
+                            class="input-group-text border border-end-0 bg-transparent"
+                            id="searchbar"><i
+                                class="fa-solid fa-magnifying-glass"></i></span>
+                        <input type="search"
+                            class="form-control me-2  border border-start-0"
+                            placeholder="Prova a cercare: Lezioni di Laravel"
+                            aria-label="Search"
+                            aria-describedby="searchbar">
+                    </div>
+
                     <form class="d-flex flex-grow-1" role="search">
 
-                        <input class="form-control me-2" type="search"
-                            placeholder="Search" aria-label="Search">
-
-                        <button class="btn btn-outline-success"
-                            type="submit">Search</button>
+                        <!-- IL BOTTONE VA TOLTO?? -->
+                        <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
 
                     </form>
 
