@@ -54,9 +54,32 @@ nav {
 :root {
     --bd_dblue: #051e34;
     --bd_blue: #1b72e8;
+    --bd_badge_blue: #165bba;
 }
 
 /* #endregion VARIABLES */
+
+/* #region COLORS */
+
+.bd_sidebar {
+    background-image: url(./img/sidebar-bg.png);
+    background-color: var(--bd_dblue);
+}
+
+.bd_bg_trasnp {
+    background-color: transparent;
+}
+
+
+#bd_teacher_overview {
+    background-color: var(--bd_blue);
+}
+
+.bd_badge_blue {
+    background-color: var(--bd_badge_blue);
+}
+
+/* #endregion COLORS */
 
 /* #region NAVBAR */
 
@@ -67,15 +90,6 @@ nav {
 /* #endregion NAVBAR */
 
 /* #region SIDEBAR */
-
-.bd_sidebar {
-    background-image: url(./img/sidebar-bg.png);
-    background-color: var(--bd_dblue);
-}
-
-.bd_bg_trasnp {
-    background-color: transparent;
-}
 
 .bd_sidebar i {
     width: 1.25rem;
@@ -89,10 +103,6 @@ nav {
 /* #endregion SIDEBAR */
 
 /* #region TEACHER OVERVIEW */
-
-#bd_teacher_overview {
-    background-color: var(--bd_blue);
-}
 
 .bd_new_student {
     line-height: 2.5rem;
