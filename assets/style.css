@@ -22,7 +22,6 @@
 
 .debug .bd_sidebar {
     min-height: calc(100vh - 100px);
-    width: 80px;
 }
 
 .debug .bd_content_wrapper {
@@ -36,7 +35,6 @@
 
 .bd_sidebar {
     height: calc(100vh - 64px);
-    min-width: 80px;
 }
 
 .bd_content_wrapper {
@@ -68,6 +66,19 @@
 .bd_sidebar {
     background-image: url(./img/sidebar-bg.png);
     background-color: var(--bd_dblue);
+}
+
+.bd_bg_trasnp {
+    background-color: transparent;
+}
+
+.bd_sidebar i {
+    width: 1.25rem;
+}
+
+.bd_sidebar span {
+    width: 3rem;
+    text-align: start;
 }
 
 /* #endregion SIDEBAR */
