@@ -1,19 +1,17 @@
 /* #region DEBUG */
 
-.debug * {
-    border: 1px dashed red;
-}
-
 .debug body {
     background-color: lightcyan;
     overflow-y: auto;
 }
 
 .debug .container {
+    border: 3px solid yellow;
     background-color: blueviolet;
 }
 
 .debug .row {
+    border: 1px solid red;
     background-color: blue;
 }
 
@@ -29,26 +27,27 @@
 }
 
 .debug .bd_content_wrapper {
-    background-color: yellow;
+    border: 3px dashed violet;
+    background-color: grey;
 }
 
 /* #endregion DEBUG */
 
-/* nav {
-
-} */
-
-.debug body {
-    /* overflow-y: auto; */
-}
+/* #region GLOBAL RULES */
 
 .bd_sidebar {
-    min-height: calc(100vh - 100px);
+    height: calc(100vh - 64px);
     width: 80px;
 }
 
 .bd_content_wrapper {
     width: 100%;
-    height: calc(100vh - 100px);
+    height: calc(100vh - 64px);
     overflow-y: auto;
+}
+
+/* #endregion GLOBAL RULES */
+
+.bd_mobile_logo {
+    height: 3rem;
 }
