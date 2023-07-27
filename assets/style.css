@@ -123,3 +123,13 @@ nav {
 }
 
 /* #endregion CLASSES */
+
+@media (min-width: 992px) {
+
+    .bd_flex_lg {
+        display: flex;
+        gap: 1.5rem;
+        align-items: flex-start;
+    }
+
+}
