@@ -23,7 +23,6 @@
 .debug .bd_sidebar {
     min-height: calc(100vh - 100px);
     width: 80px;
-    background-color: antiquewhite;
 }
 
 .debug .bd_content_wrapper {
@@ -37,7 +36,7 @@
 
 .bd_sidebar {
     height: calc(100vh - 64px);
-    width: 80px;
+    min-width: 80px;
 }
 
 .bd_content_wrapper {
@@ -48,6 +47,27 @@
 
 /* #endregion GLOBAL RULES */
 
+/* #region VARIABLES */
+
+:root {
+    --bd_dblue: #051e34;
+}
+
+/* #endregion VARIABLES */
+
+/* #region NAVBAR */
+
 .bd_mobile_logo {
     height: 3rem;
 }
+
+/* #endregion NAVBAR */
+
+/* #region SIDEBAR */
+
+.bd_sidebar {
+    background-image: url(./img/sidebar-bg.png);
+    background-color: var(--bd_dblue);
+}
+
+/* #endregion SIDEBAR */
