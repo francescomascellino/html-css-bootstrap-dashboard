@@ -114,3 +114,12 @@ nav {
 }
 
 /* #endregion TEACHER OVERVIEW */
+
+/* #region CLASSES */
+
+#bd_classes th[scope="row"] {
+    line-height: 0.5rem;
+    vertical-align: middle;
+}
+
+/* #endregion CLASSES */
