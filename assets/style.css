@@ -78,7 +78,7 @@ nav {
     background-color: var(--bd_badge_blue);
 }
 
-#faq .accordion-button:focus {
+#bd_faq .accordion-button:focus {
     box-shadow: none;
     background-color: transparent;
 }
