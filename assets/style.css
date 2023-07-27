@@ -78,6 +78,11 @@ nav {
     background-color: var(--bd_badge_blue);
 }
 
+#faq .accordion-button:focus {
+    box-shadow: none;
+    background-color: transparent;
+}
+
 /* #endregion COLORS */
 
 /* #region NAVBAR */
@@ -109,3 +114,8 @@ nav {
 }
 
 /* #enderegion TEACHER OVERVIEW */
+
+.accordion-button:focus {
+    box-shadow: none;
+    background-color: transparent;
+}
