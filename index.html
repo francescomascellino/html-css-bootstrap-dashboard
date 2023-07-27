@@ -160,100 +160,106 @@
             <div class="bd_content_wrapper">
                 <div class="container-fluid">
 
-                    <section id="bd_teacher_overview" class="row text-white">
+                    <section id="bd_teacher_overview"
+                        class="row text-white py-4">
 
-                        <div class="col-12 g-4">
+                        <!-- <div class="col-12"> -->
 
-                            <!-- NEW STUDENT PANEL -->
-                            <div
-                                class="bd_new_student d-flex align-items-center gap-3 mb-3">
-                                <span class="h5">Nuovo Studente</span>
+                        <!-- NEW STUDENT PANEL -->
+                        <div
+                            class="bd_new_student d-flex align-items-center gap-3 col-md-4 order-md-3 mb-3">
+                            <span class="h5">Nuovo Studente</span>
 
-                                <!-- OFFCANVAS PANEL BUTTON -->
-                                <a href="#" class="btn btn-outline-light">
-                                    <i class="fa-solid fa-plus"
-                                        data-bs-toggle="offcanvas"
-                                        href="#new_student_panel" role="button"
-                                        aria-controls="new_student_panel"></i>
-                                </a>
+                            <!-- OFFCANVAS PANEL BUTTON -->
+                            <a href="#" class="btn btn-outline-light">
+                                <i class="fa-solid fa-plus"
+                                    data-bs-toggle="offcanvas"
+                                    href="#new_student_panel" role="button"
+                                    aria-controls="new_student_panel"></i>
+                            </a>
 
-                                <!-- OFFCANVAS -->
-                                <div class="offcanvas offcanvas-end"
-                                    tabindex="-1" id="new_student_panel"
-                                    aria-labelledby="new_student_panel_label">
+                            <!-- OFFCANVAS -->
+                            <div class="offcanvas offcanvas-end"
+                                tabindex="-1" id="new_student_panel"
+                                aria-labelledby="new_student_panel_label">
 
-                                    <!-- OFFCANVAS HEADER -->
-                                    <div class="offcanvas-header">
+                                <!-- OFFCANVAS HEADER -->
+                                <div class="offcanvas-header">
 
-                                        <h5 class="offcanvas-title"
-                                            id="new_student_panel_label">Inserisci
-                                            un nuovo studente</h5>
+                                    <h5 class="offcanvas-title"
+                                        id="new_student_panel_label">Inserisci
+                                        un nuovo studente</h5>
 
-                                        <!-- CLOSE BTN -->
-                                        <button type="button" class="btn-close"
-                                            data-bs-dismiss="offcanvas"
-                                            aria-label="Close"></button>
+                                    <!-- CLOSE BTN -->
+                                    <button type="button" class="btn-close"
+                                        data-bs-dismiss="offcanvas"
+                                        aria-label="Close"></button>
 
-                                    </div>
-
-                                    <!-- OFFCANVAS BODY -->
-                                    <div class="offcanvas-body">
-                                        <div>
-                                            Some text as placeholder. In real
-                                            life you can have the elements you
-                                            have chosen. Like, text, images,
-                                            lists, etc.
-                                        </div>
-
-                                    </div>
                                 </div>
+
+                                <!-- OFFCANVAS BODY -->
+                                <div class="offcanvas-body">
+                                    <div>
+                                        Some text as placeholder. In real
+                                        life you can have the elements you
+                                        have chosen. Like, text, images,
+                                        lists, etc.
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- PLAN AND APPS -->
+                        <div class="bd_breadcrumbs col-md-4 mb-3">
+
+                            <div class="bd_plan_summary mb-2">
+
+                                <span class="h1">Boolean</span>
+
+                                <span
+                                    class="badge rounded-pill bd_badge_blue">Piano
+                                    blaze</span>
 
                             </div>
 
-                            <!-- PLAN AND APPS -->
-                            <div class="bd_breadcrumbs mb-3">
+                            <div class="db_plan_apps">
 
-                                <div class="bd_plan_summary mb-2">
+                                <span
+                                    class="badge rounded-pill bd_badge_blue">3
+                                    app</span>
 
-                                    <span class="h1">Boolean</span>
+                                <span class><i
+                                        class="fa-solid fa-angles-right"></i></span>
 
-                                    <span
-                                        class="badge rounded-pill bd_badge_blue">Piano
-                                        blaze</span>
+                                <span
+                                    class="badge rounded-pill bd_badge_blue d-lg-none">
+                                    <i class="fa-solid fa-plus"></i>
+                                </span>
 
-                                </div>
+                                <span
+                                    class="badge rounded-pill bd_badge_blue d-none d-lg-inline-block">Boolean
+                                    mobile app</span>
 
-                                <div class="db_plan_apps">
+                                <span
+                                    class="badge rounded-pill bd_badge_blue d-none d-lg-inline-block">Boolean
+                                    web app</span>
 
-                                    <span
-                                        class="badge rounded-pill bd_badge_blue">3
-                                        app</span>
-
-                                    <span class><i
-                                            class="fa-solid fa-angles-right"></i></span>
-
-                                    <span
-                                        class="badge rounded-pill bd_badge_blue d-lg-none">
-                                        <i class="fa-solid fa-plus"></i>
-                                    </span>
-
-                                    <span
-                                        class="badge rounded-pill bd_badge_blue d-none d-lg-inline-block">Boolean
-                                        mobile app</span>
-
-                                    <span
-                                        class="badge rounded-pill bd_badge_blue d-none d-lg-inline-block">Boolean
-                                        web app</span>
-
-                                    <span
-                                        class="badge rounded-pill bd_badge_blue d-none d-lg-inline-block">Boolean
-                                        blog app</span>
-
-                                </div>
+                                <span
+                                    class="badge rounded-pill bd_badge_blue d-none d-lg-inline-block">Boolean
+                                    blog app</span>
 
                             </div>
 
                         </div>
+
+                        <div class="bd_online_students col-md-4 mb-3">
+                            <h5>Studenti online negli ultimi 30 minuti</h5>
+                            <h2>125</h2>
+                        </div>
+
+                        <!-- </div> -->
 
                     </section>
 
