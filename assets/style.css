@@ -1,7 +1,38 @@
 /* #region DEBUG */
 
 .debug * {
-    border: 1ps dashed red;
+    border: 1px dashed red;
+}
+
+[class^='col'] {
+    min-height: 150px;
 }
 
 /* #endregion DEBUG */
+
+/* nav {
+
+} */
+
+.bd_sidebar {
+    min-height: calc(100vh - 80px);
+    width: 80px;
+    background-color: antiquewhite;
+}
+
+.bd_content_wrapper {
+    background-color: yellow;
+    overflow-y: auto;
+}
+
+body {
+    background-color: lightcyan;
+}
+
+.container {
+    background-color: blueviolet;
+}
+
+.row {
+    background-color: blue;
+}
