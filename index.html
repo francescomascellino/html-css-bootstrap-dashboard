@@ -18,7 +18,7 @@
 
     </head>
 
-    <body class="debug">
+    <body class>
 
         <header>
 
@@ -118,6 +118,7 @@
 
         <main class="d-flex">
 
+            <!-- SIDEBAR -->
             <div
                 class="bd_sidebar d-flex flex-column align-items-center px-2 py-4 gap-2">
 
@@ -155,127 +156,74 @@
 
             </div>
 
+            <!-- MAIN CONTENT -->
             <div class="bd_content_wrapper">
                 <div class="container-fluid">
 
-                    <div class="row">
+                    <section id="bd_teacher_overview" class="row text-white">
 
-                        <div class="col">
+                        <div class="col-12 g-4">
 
-                            <div class="card">
-                                <img class="card-img-top"
-                                    src="holder.js/100x180/"
-                                    alt="Title">
-                                <div class="card-body">
-                                    <h4 class="card-title">Title</h4>
-                                    <p class="card-text">Text</p>
+                            <div
+                                class="bd_new_student d-flex align-items-center gap-3">
+                                <span class="h4">Nuovo Studente</span>
+
+                                <!-- OFFCANVAS PANEL BUTTON -->
+                                <a href="#" class="btn btn-outline-light">
+                                    <i class="fa-solid fa-plus"
+                                        data-bs-toggle="offcanvas"
+                                        href="#new_student_panel" role="button"
+                                        aria-controls="new_student_panel"></i>
+                                </a>
+
+                                <!-- OFFCANVAS -->
+                                <div class="offcanvas offcanvas-end"
+                                    tabindex="-1" id="new_student_panel"
+                                    aria-labelledby="new_student_panel_label">
+
+                                    <!-- OFFCANVAS HEADER -->
+                                    <div class="offcanvas-header">
+
+                                        <h5 class="offcanvas-title"
+                                            id="new_student_panel_label">Inserisci
+                                            un nuovo studente</h5>
+
+                                        <!-- CLOSE BTN -->
+                                        <button type="button" class="btn-close"
+                                            data-bs-dismiss="offcanvas"
+                                            aria-label="Close"></button>
+
+                                    </div>
+
+                                    <!-- OFFCANVAS BODY -->
+                                    <div class="offcanvas-body">
+                                        <div>
+                                            Some text as placeholder. In real
+                                            life you can have the elements you
+                                            have chosen. Like, text, images,
+                                            lists, etc.
+                                        </div>
+
+                                    </div>
                                 </div>
+
                             </div>
 
                         </div>
 
-                    </div>
+                    </section>
 
-                    <div class="row">
-
-                        <div class="col">
-
-                            <div class="card">
-                                <img class="card-img-top"
-                                    src="holder.js/100x180/"
-                                    alt="Title">
-                                <div class="card-body">
-                                    <h4 class="card-title">Title</h4>
-                                    <p class="card-text">Text</p>
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                    <div class="row">
+                    <!-- PLACEHOLDER -->
+                    <div class="row my-3">
 
                         <div class="col">
 
                             <div class="card">
                                 <img class="card-img-top"
-                                    src="holder.js/100x180/"
+                                    src="https://picsum.photos/50"
                                     alt="Title">
                                 <div class="card-body">
-                                    <h4 class="card-title">Title</h4>
-                                    <p class="card-text">Text</p>
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                    <div class="row">
-
-                        <div class="col">
-
-                            <div class="card">
-                                <img class="card-img-top"
-                                    src="holder.js/100x180/"
-                                    alt="Title">
-                                <div class="card-body">
-                                    <h4 class="card-title">Title</h4>
-                                    <p class="card-text">Text</p>
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                    <div class="row">
-
-                        <div class="col">
-
-                            <div class="card">
-                                <img class="card-img-top"
-                                    src="holder.js/100x180/"
-                                    alt="Title">
-                                <div class="card-body">
-                                    <h4 class="card-title">Title</h4>
-                                    <p class="card-text">Text</p>
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                    <div class="row">
-
-                        <div class="col">
-
-                            <div class="card">
-                                <img class="card-img-top"
-                                    src="holder.js/100x180/"
-                                    alt="Title">
-                                <div class="card-body">
-                                    <h4 class="card-title">Title</h4>
-                                    <p class="card-text">Text</p>
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                    <div class="row">
-
-                        <div class="col">
-
-                            <div class="card">
-                                <img class="card-img-top"
-                                    src="holder.js/100x180/"
-                                    alt="Title">
-                                <div class="card-body">
-                                    <h4 class="card-title">Title</h4>
+                                    <h4 class="card-title">PLACEHOLDER</h4>
                                     <p class="card-text">Text</p>
                                 </div>
                             </div>
@@ -285,6 +233,7 @@
                     </div>
 
                 </div>
+
             </div>
 
         </main>

@@ -16,7 +16,7 @@
 }
 
 [class^='col'] {
-    min-height: 150px;
+    min-height: 50px;
     border-color: black;
 }
 
@@ -53,6 +53,7 @@ nav {
 
 :root {
     --bd_dblue: #051e34;
+    --bd_blue: #1b72e8;
 }
 
 /* #endregion VARIABLES */
@@ -86,3 +87,15 @@ nav {
 }
 
 /* #endregion SIDEBAR */
+
+/* #region TEACHER OVERVIEW */
+
+#bd_teacher_overview {
+    background-color: var(--bd_blue);
+}
+
+.bd_new_student {
+    line-height: 2.5rem;
+}
+
+/* #enderegion TEACHER OVERVIEW */
