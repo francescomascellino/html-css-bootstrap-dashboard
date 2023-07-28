@@ -119,6 +119,12 @@ main {
     height: 100%;
 }
 
+@media screen and (min-width: 992px) {
+    .offcanvas {
+        width: 800px !important;
+    }
+}
+
 /* #endregion TEACHER OVERVIEW */
 
 /* #region CLASSES */
@@ -129,3 +135,13 @@ main {
 }
 
 /* #endregion CLASSES */
+
+/* #region MEDIA QUERIES */
+
+@media screen and (min-width: 992px) {
+    #bd_teacher_overview .offcanvas {
+        width: 800px !important;
+    }
+}
+
+/* #endregion MEDIA QUERIES */
