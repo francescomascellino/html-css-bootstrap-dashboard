@@ -47,7 +47,6 @@ main {
 .bd_content_wrapper {
     width: 100%;
     height: calc(100vh - 64px);
-    /* overflow-y: auto; */
 }
 
 /* #endregion GLOBAL RULES */
@@ -127,17 +126,3 @@ main {
 }
 
 /* #endregion CLASSES */
-
-/* #region MEDIA QUERIES */
-
-/* @media (min-width: 992px) {
-
-    .bd_flex_lg {
-        display: flex;
-        gap: 1.5rem;
-        align-items: flex-start;
-    }
-
-} */
-
-/* #endregion MEDIA QUERIES */
