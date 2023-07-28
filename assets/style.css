@@ -80,6 +80,10 @@ main {
     background-color: var(--bd_badge_blue);
 }
 
+.bd_badge_blue:hover {
+    filter: saturate(0.8);
+}
+
 #bd_faq .accordion-button:focus {
     box-shadow: none;
     background-color: transparent;
