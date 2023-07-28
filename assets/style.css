@@ -126,7 +126,7 @@ nav {
 
 /* #region MEDIA QUERIES */
 
-@media (min-width: 992px) {
+/* @media (min-width: 992px) {
 
     .bd_flex_lg {
         display: flex;
@@ -134,6 +134,6 @@ nav {
         align-items: flex-start;
     }
 
-}
+} */
 
 /* #endregion MEDIA QUERIES */
