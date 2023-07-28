@@ -174,7 +174,7 @@
                             </a>
 
                             <!-- OFFCANVAS -->
-                            <div class="offcanvas offcanvas-end"
+                            <div class="offcanvas offcanvas-end w-75"
                                 tabindex="-1" id="new_student_panel"
                                 aria-labelledby="new_student_panel_label">
 
@@ -194,14 +194,181 @@
 
                                 <!-- OFFCANVAS BODY -->
                                 <div class="offcanvas-body">
-                                    <div>
-                                        Some text as placeholder. In real
-                                        life you can have the elements you
-                                        have chosen. Like, text, images,
-                                        lists, etc.
-                                    </div>
+
+                                    <form class="row g-2">
+
+                                        <!-- NOME -->
+                                        <div class="col-6">
+
+                                            <label for="name"
+                                                class="form-label fw-bold">Nome</label>
+
+                                            <input type="text"
+                                                class="form-control"
+                                                id="name">
+
+                                        </div>
+
+                                        <!-- COGNOME -->
+                                        <div class="col-6">
+
+                                            <label for="surname"
+                                                class="form-label fw-bold">Cognome</label>
+
+                                            <input type="text"
+                                                class="form-control"
+                                                id="surname">
+
+                                        </div>
+
+                                        <!-- EMAIL -->
+                                        <div class="col-6">
+
+                                            <label for="email_1"
+                                                class="form-label fw-bold">Email</label>
+
+                                            <div class="input-group">
+
+                                                <span class="input-group-text"
+                                                    id="email_1">@</span>
+
+                                                <input type="email"
+                                                    class="form-control"
+                                                    aria-label="Email"
+                                                    aria-describedby="email_1">
+
+                                            </div>
+
+                                        </div>
+
+                                        <!-- PASSWORD 1 -->
+                                        <div class="col-6">
+
+                                            <label for="password_1"
+                                                class="form-label fw-bold">Password</label>
+
+                                            <input type="password"
+                                                class="form-control"
+                                                id="password_1">
+
+                                        </div>
+
+                                        <!-- INDIRIZZO EMAIL -->
+                                        <div class="col-6">
+
+                                            <label for="email_2"
+                                                class="form-label fw-bold">Indirizzo
+                                                <br> Email</label>
+
+                                            <div class="input-group">
+
+                                                <span class="input-group-text"
+                                                    id="email_2">@</span>
+
+                                                <input type="email"
+                                                    class="form-control"
+                                                    aria-label="Indirizzo_Email"
+                                                    aria-describedby="email_2">
+
+                                            </div>
+
+                                        </div>
+
+                                        <!-- PASSWORD 2 -->
+                                        <div class="col-6">
+
+                                            <label for="password_2"
+                                                class="form-label fw-bold"><br>Password</label>
+
+                                            <input type="password"
+                                                class="form-control"
+                                                id="password_2">
+
+                                        </div>
+
+                                        <!-- INDIRIZZO -->
+                                        <div class="col-12">
+                                            <label for="adress"
+                                                class="form-label fw-bold">Indirizzo</label>
+                                            <input type="text"
+                                                class="form-control"
+                                                id="adress"
+                                                placeholder="Via/Piazza...">
+                                        </div>
+
+                                        <!-- CITTA' -->
+                                        <div class="col-6">
+                                            <label for="city"
+                                                class="form-label fw-bold">Città</label>
+                                            <input type="text"
+                                                class="form-control"
+                                                id="city">
+                                        </div>
+
+                                        <!-- STATO -->
+                                        <div class="col-4">
+                                            <label for="state"
+                                                class="form-label fw-bold">Stato</label>
+                                            <select id="state"
+                                                class="form-select">
+                                                <option selected>Scegli...</option>
+                                                <option>Altro...</option>
+                                            </select>
+                                        </div>
+
+                                        <!-- CAP -->
+                                        <div class="col-2">
+                                            <label for="cap"
+                                                class="form-label fw-bold">CAP</label>
+                                            <input type="number"
+                                                class="form-control"
+                                                id="cap">
+                                        </div>
+
+                                        <!-- FOTO -->
+                                        <div class="col-12">
+
+                                            <label for="photo_upload"
+                                                class="form-label fw-bold">Foto</label>
+
+                                            <input class="form-control"
+                                                type="file"
+                                                id="photo_upload">
+
+                                        </div>
+
+                                        <!-- VALIDATION  -->
+                                        <div class="col-12">
+
+                                            <div class="form-check">
+
+                                                <input type="checkbox"
+                                                    class="form-check-input"
+                                                    id="validate">
+
+                                                <label
+                                                    class="form-check-label fw-bold"
+                                                    for="validate">Seleziona per
+                                                    proseguire</label>
+
+                                            </div>
+
+                                        </div>
+
+                                        <!-- SUBMIT/RESET -->
+                                        <div class="col-12">
+
+                                            <button type="submit"
+                                                class="btn btn-primary fw-bold">Submit</button>
+                                            <button type="reset"
+                                                class="btn btn-warning fw-bold">Svuota</button>
+
+                                        </div>
+
+                                    </form>
 
                                 </div>
+
                             </div>
 
                         </div>
@@ -249,12 +416,165 @@
 
                         </div>
 
+                        <!-- ONLINE STUDENTS -->
                         <div class="bd_online_students col-md-4">
                             <h6>Studenti online negli ultimi 30 minuti</h6>
                             <h2>125</h2>
                         </div>
 
                     </div>
+
+                </div>
+
+                <!-- FORM OFFCANVAS -->
+                <div class="container-fluid">
+
+                    <form class="row g-3">
+
+                        <!-- NOME -->
+                        <div class="col-6">
+
+                            <label for="name"
+                                class="form-label fw-bold">Nome</label>
+
+                            <input type="text" class="form-control"
+                                id="name">
+
+                        </div>
+
+                        <!-- COGNOME -->
+                        <div class="col-6">
+
+                            <label for="surname"
+                                class="form-label fw-bold">Cognome</label>
+
+                            <input type="text" class="form-control"
+                                id="surname">
+
+                        </div>
+
+                        <!-- EMAIL -->
+                        <div class="col-6">
+
+                            <label for="email_1" class="form-label fw-bold">Email</label>
+
+                            <div class="input-group">
+
+                                <span class="input-group-text" id="email_1">@</span>
+
+                                <input type="email" class="form-control"
+                                    aria-label="Email"
+                                    aria-describedby="email_1">
+
+                            </div>
+
+                        </div>
+
+                        <!-- PASSWORD 1 -->
+                        <div class="col-6">
+
+                            <label for="password_1"
+                                class="form-label fw-bold">Password</label>
+
+                            <input type="password" class="form-control"
+                                id="password_1">
+
+                        </div>
+
+                        <!-- INDIRIZZO EMAIL -->
+                        <div class="col-6">
+
+                            <label for="email_2" class="form-label fw-bold">Indirizzo
+                                <br> Email</label>
+
+                            <div class="input-group">
+
+                                <span class="input-group-text" id="email_2">@</span>
+
+                                <input type="email" class="form-control"
+                                    aria-label="Indirizzo_Email"
+                                    aria-describedby="email_2">
+
+                            </div>
+
+                        </div>
+
+                        <!-- PASSWORD 2 -->
+                        <div class="col-6">
+
+                            <label for="password_2"
+                                class="form-label fw-bold"><br>Password</label>
+
+                            <input type="password" class="form-control"
+                                id="password_2">
+
+                        </div>
+
+                        <!-- INDIRIZZO -->
+                        <div class="col-12">
+                            <label for="adress" class="form-label fw-bold">Indirizzo</label>
+                            <input type="text" class="form-control"
+                                id="adress" placeholder="Via/Piazza...">
+                        </div>
+
+                        <!-- CITTA' -->
+                        <div class="col-6">
+                            <label for="city" class="form-label fw-bold">Città</label>
+                            <input type="text" class="form-control"
+                                id="city">
+                        </div>
+
+                        <!-- STATO -->
+                        <div class="col-4">
+                            <label for="state" class="form-label fw-bold">Stato</label>
+                            <select id="state" class="form-select">
+                                <option selected>Scegli...</option>
+                                <option>Altro...</option>
+                            </select>
+                        </div>
+
+                        <!-- CAP -->
+                        <div class="col-2">
+                            <label for="cap" class="form-label fw-bold">CAP</label>
+                            <input type="number" class="form-control"
+                                id="cap">
+                        </div>
+
+                        <!-- FOTO -->
+                        <div class="col-12">
+
+                            <label for="photo_upload" class="form-label fw-bold">Foto</label>
+
+                            <input class="form-control" type="file"
+                                id="photo_upload">
+
+                        </div>
+
+                        <!-- VALIDATION  -->
+                        <div class="col-12">
+
+                            <div class="form-check">
+
+                                <input type="checkbox" class="form-check-input"
+                                    id="validate">
+
+                                <label class="form-check-label fw-bold"
+                                    for="validate">Seleziona per proseguire</label>
+
+                            </div>
+
+                        </div>
+
+                        <!-- SUBMIT/RESET -->
+                        <div class="col-12">
+
+                            <button type="submit"
+                                class="btn btn-primary fw-bold">Submit</button>
+                            <button type="reset" class="btn btn-warning fw-bold">Svuota</button>
+
+                        </div>
+
+                    </form>
 
                 </div>
 
@@ -948,7 +1268,7 @@
 
                 </div>
 
-                <!-- OLD CARD SECTION -->
+                <!-- OLD CARD PANEL -->
                 <!-- <div class="container-fluid pb-4 bd_flex_lg">
 
                     <div class="row col-lg">
