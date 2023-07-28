@@ -119,12 +119,6 @@ main {
     height: 100%;
 }
 
-@media screen and (min-width: 992px) {
-    .offcanvas {
-        width: 800px !important;
-    }
-}
-
 /* #endregion TEACHER OVERVIEW */
 
 /* #region CLASSES */
