@@ -36,6 +36,10 @@ nav {
     height: 64px;
 }
 
+main {
+    overflow-y: auto;
+}
+
 .bd_sidebar {
     height: calc(100vh - 64px);
 }
@@ -43,7 +47,7 @@ nav {
 .bd_content_wrapper {
     width: 100%;
     height: calc(100vh - 64px);
-    overflow-y: auto;
+    /* overflow-y: auto; */
 }
 
 /* #endregion GLOBAL RULES */
